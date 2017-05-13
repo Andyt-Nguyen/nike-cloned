@@ -7,4 +7,5 @@ NikeApp.controller('LoginController', ['$scope','NikeService', function($scope,N
 			})
 		};
 		getUser();
+		$scope.numInCart = NikeService.addToCart.length;
 }])
