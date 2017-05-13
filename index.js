@@ -8,6 +8,7 @@ const Auth0Strategy = require('passport-auth0');
 const session = require('express-session');
 const conn = massive.connectSync({connectionString:"postgres://postgres:@localhost:4321/products"});
 const app = module.exports = express();
+var emptyBuffer = Buffer(0);
 
 
 
