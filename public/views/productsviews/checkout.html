@@ -1,0 +1,36 @@
+<h1 class="container" style="color:black">Checkout</h1>
+<div style="display:flex; justify-content:center; color:black">
+	<table class="table" style="width:60%;">
+		<thead>
+			<tr>
+				<th style="padding:0;"><h3>Shopping Cart</h3></th>
+				<th></th>
+				<th>Qty</th>
+				<th>Price</th>
+				<th></th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr ng-repeat="item in items">
+				<td style="padding:0;">
+					<div>
+						<img ng-src="{{item.img}}" alt="" style="width:100px">
+					</div>
+
+				</td>
+				<td>
+					<h4>{{item.name}} <small style="text-decoration:uppercase">{{item.gender}}</small></h4>
+					<img width="30px" src="css/images/nikempng/nikeplus.png" alt="">
+					<h6 style="color:green">In Stock</h6>
+					<h6 style="color:red; cursor:pointer" ng-click="remove(item)">Delete</h6>
+				</td>
+				<td>1</td>
+				<td><h5>{{item.price | currency}}</h5></td>
+			</tr>
+			<td>
+				<h4>Total: {{total|currency}}</h4>
+				<button ng-click='addToHistory()' ui-sref="success">SUBMIT</button>
+			</td>
+		</tbody>
+	</table>
+</div>

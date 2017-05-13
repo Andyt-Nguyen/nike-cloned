@@ -1,0 +1,119 @@
+<section class="nike-kids-container">
+
+
+<!-- Nike Boys Header -->
+	<section class="nike-kids-header-container">
+		<div class="nike-kids-header">
+			<h1>Nike Boys</h1>
+		</div>
+		<div class="nike-kids-nav">
+			<a ui-sref="bproduct" class="kids-cloth">Shoes</a>
+			<a ui-sref="bproduct" class="kids-cloth kids-clothing-nav">Clothing</a>
+			<a ui-sref="bproduct" class="kids-cloth">Gear</a>
+			<a ui-sref="bproduct" class="kids-cloth kids-clothing-nav">Sports Checklist</a>
+			<a ui-sref="bproduct" class="kids-cloth">Size Guide</a>
+		</div>
+	</section>
+
+
+<!-- Nike Boys Poster Picture -->
+	<section class="nike-kids-poster">
+		<img src="css/images/nikebpics/nikeboys.png" alt="">
+		<div class="kids-poster-title">
+			<h1 class="kids-title-cap">Stay Restless</h1>
+			<p class="kids-para-cap">All the gear you need to be everywhere this summer</p>
+		</div>
+		<button ui-sref="bproduct" class="kids-button shopper-anim-btn">Shop Now</button>
+	</section>
+
+
+<!-- Shop By Size -->
+	<kid-sizes></kid-sizes>
+
+
+<!-- Find The Perfect Fit -->
+	<section class="find-the-perfect">
+		<div class="find-the-perfect-title">
+			<h1>Find the perfect pair</h1>
+		</div>
+		<div class="shoe-pic-kids">
+			<div class="kid-shoe" ng-repeat="shoe in nikeShoes">
+				<img ui-sref="bproduct" ng-src="{{shoe.img}}" class="shopper-anim-pic" alt="">
+				<p>{{shoe.title}}</p>
+			</div>
+		</div>
+	</section>
+
+
+<!-- Find your everyday favorites -->
+	<section class="kids-find-everyday-sect">
+		<div class="find-the-perfect-title">
+			<h1>Find your everyday favorites</h1>
+		</div>
+		<div class="shoe-pic-kids">
+			<div class="kid-swag" ng-repeat="clothing in nikeClothes">
+				<img ui-sref="bproduct" ng-src="{{clothing.img}}" class="shopper-anim-pic" alt="">
+			</div>
+		</div>
+	</section>
+
+
+<!-- **Categories -->
+	<section class="nike-a-categ nike-kids-categ">
+		<div class="a-categories-box">
+			<div class="a-categories">
+
+				<div class="a-shoes a-categ-display">
+					<h5>Boy's Shoes</h5>
+					<a ui-sref="bproduct">All Boys' Shoes</a>
+					<a ui-sref="bproduct">New Boys' Shoes</a>
+					<a ui-sref="bproduct">Lifestyle</a>
+					<a ui-sref="bproduct">Customise with NIKEiD</a>
+				</div>
+
+				<div class="a-clothing a-categ-display">
+					<h5>Boys' Clothing</h5>
+					<a ui-sref="bproduct">All Boys' Clothing</a>
+					<a ui-sref="bproduct">New Boys' Clothing</a>
+					<a ui-sref="bproduct">Tops & T-Shirts</a>
+					<a ui-sref="bproduct">Compression & Nike Pro</a>
+				</div>
+
+				<div class="a-gear a-categ-display">
+					<h5>Boys' Gear</h5>
+					<a ui-sref="bproduct">All Boys'Accessories</a>
+					<a ui-sref="bproduct">Bags & Backpacks</a>
+					<a ui-sref="bproduct">Hats, Visors & Headbands</a>
+					<a ui-sref="bproduct">Socks</a>
+				</div>
+
+				<div class="a-featured a-categ-display">
+					<h5>Featured</h5>
+					<a ui-sref="bproduct">All Boys' Products</a>
+					<a ui-sref="bproduct">New Releases</a>
+					<a ui-sref="bproduct">Tech Pack Collection</a>
+					<a ui-sref="bproduct">FC Barcelona Store</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+<!-- Boys Gear Up For Essentials -->
+	<section class="kids-gear-up">
+		<div class="kids-gear-title">
+			<h1>Gear Up: Season Essentials</h1>
+		</div>
+		<div class="kids-gear-pics">
+			<div class="checklist-images" ng-repeat="checklist in nikeCheckList">
+				<a ui-sref="bproduct"><img ng-src="{{checklist.img}}" class="shopper-anim-pic" alt=""></a>
+				<a ui-sref="bproduct" style="text-decoration: none;"><h4>{{checklist.title}}</h4></a>
+			</div>
+		</div>
+	</section>
+
+
+<!-- ** Benefits Nike -->
+	<kid-benefits></kid-benefits>
+
+</section>

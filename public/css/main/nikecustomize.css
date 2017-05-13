@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+
+/* Customize Navbar*/
+.customize-nav {
+	margin-top: 3%;
+	margin-bottom: 5%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+.customize-nav-ind {
+	margin-top: 3%;
+	width: 30%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.ind{
+	text-decoration: none;
+	text-align: center;
+	color: #222222;
+	flex: 1;
+	text-decoration: none;
+	transition: .4s;
+	transform: skewY(20px);
+}
+
+.ind:hover {
+	color:#000;
+	font-size: 17px;
+	text-decoration: none;
+
+}
+
+.ind-border {
+	border-left: 2px solid #222222;
+	border-right: 2px solid #222222;
+}
+
+.ind-border-right {
+	border-right: 2px solid #222222;
+}
+
+
+
+/* Sock Racer By You Section*/
+.customize-sock-title {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 4.5%;
+}
+
+.customize-sock-title h3 {
+	font-family: "Fjalla One";
+	font-weight: 400;
+	font-size: 28px;
+	text-transform: uppercase;
+	color: #323232;
+}
+
+.customize-sock-1 {
+	font-family: 'Lato';
+	font-size: 15px;
+	word-spacing: 2px;
+	color: #6e6e6e;
+}
+
+.customize-sock-2 {
+	font-family: 'Lato';
+	font-size: 15px;
+	word-spacing: 2px;
+	margin-top: 3%;
+}
+
+
+
+/* Design. Make. Delivered. */
+.design-make-deliver {
+	margin-top: 3%;
+	background: #f7f7f7;
+	display: flex;
+	height: 33.2vh;
+
+}
+
+.dmd {
+	margin-top: 2%;
+	height: 22vh;
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.dmd h1{
+	font-size: 28px;
+	font-family: "Fjalla One";
+	text-transform: uppercase;
+	color: #000;
+}
+
+.dmd h4{
+	font-family: "Lato";
+	font-size: 15px;
+	color: #6f6f6f;
+}
+
+.dmd-mid {
+	border-left: 1px solid #cdcdcd;
+	border-right: 1px solid #cdcdcd;
+}
+
+
+
+/* Let's Get Started */
+.customize-started {
+	margin-top: 5%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.customize-started h1 {
+	font-family: "Fjalla One";
+	font-size: 28px;
+	color: #000;
+	text-transform: uppercase;
+}
+
+.customize-started p {
+	padding: 0;
+	margin: 0;
+	color: #6f6f6f;
+}
+
+
+
+/* Start with a blank canvas */
+.customize-blank {
+	margin-top: 5%;
+	padding-bottom: 5%;
+	background: #f5f5f5;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+.customize-blank-shoe {
+	width: 90%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.customize-blank h2 {
+	padding-top: 3%;
+	font-family: 'Fjalla One';
+	font-size: 28px;
+	color: #000;
+	text-transform: uppercase;
+}
+
+.customize-blank a {
+	text-align: center;
+	text-decoration: none;
+	color: #888888;
+}
+
+.customize-blank img {
+	padding: 20px;
+}
+
+
+
+/* Material Color Innovation */
+.mci-sect {
+	display: flex;
+	background: #ffffff;
+}
+
+.mci-ind {
+	flex: 1;
+}
+
+
+
+/* Featured Stories */
+.customize-feat-sect {
+	background: #fffdfe;
+	margin-top: 8%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.customize-feat-title {
+	font-family: "Fjalla One";
+	font-size: 27px;
+	color: #000;
+	text-transform: uppercase;
+	margin-bottom: 7%;
+}
+
+.customize-feat-img {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.feat-img {
+	flex:1;
+}
+
+.customize-feat-extra {
+	margin-top: 4%;
+	text-align: center;
+}
+
+.customize-feat-extra h3 {
+	font-size: 30px;
+	font-family: "Fjalla One";
+	color: #000;
+}
+
+.customize-feat-extra p {
+	color: #696969;
+}
+
+.customize-feat-extra a {
+	font-family: "Fjalla One";
+	color: #000;
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+
+
+
+/* Nike Flyknit */
+.flyknit-sect {
+	margin-top: 5%;
+}
+.flyknit-banner {
+	position: relative;
+}
+
+.flyknit-header {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	color: white;
+	top:8%;
+	left: 4%;
+
+}
+
+.flyknit-header h1 {
+	font-family: "Fjalla One";
+}
+
+.flyknit-header p {
+	padding: 0;
+	margin: 0;
+	font-family: "Lato";
+}
+
+.flyknit-btn {
+	text-align: center;
+	padding: 5px;
+	padding-right: 20px;
+	border-radius: 5px;
+	background: #ffffff;
+	display: flex;
+	position: absolute;
+	top: 30%;
+	left: 8%;
+}
+
+
+
+/* Summer Suede */
+.summer-suede-sect {
+	background: #e6e6e6;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.summer-suede-shoes {
+	padding-top: 5%;
+	padding-bottom: 5%;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.summer-suede-sect h1{
+	padding-bottom: 15px;
+	color: #000;
+	text-transform: uppercase;
+	font-family: "Fjalla One";
+}
+
+.summer-suede-sect p {
+	padding: 0;
+	margin: 0;
+	font-family: "Lato";
+	color: #676767;
+}
+
+.summer-suede-sect a {
+	font-family: "Fjalla One";
+	color: #000;
+	padding-bottom: 5%;
+	text-decoration: underline;
+}
+
+.suede-shoes {
+	border-radius: 20px;
+}

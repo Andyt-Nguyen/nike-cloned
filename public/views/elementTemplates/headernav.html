@@ -1,0 +1,38 @@
+<header ng-controller="LoginController">
+	<!-- Upper Nav -->
+	<nav class="menu-bar-upper">
+		<section class="upper-nav">
+			<div class="upper-nav-left">
+				<a href="#" class="upper-nav-text u-text">Nike+</a>
+				<a href="#" class="u-border"><img src="./css/images/navbarpics/jordan.png" alt=""></a>
+				<a href="#" class="u-border"><img src="./css/images/navbarpics/hurley.png" alt=""></a>
+				<a href="#" class="u-border"><img src="./css/images/navbarpics/converse.png" alt=""></a>
+			</div>
+
+			<div class="upper-nav-right">
+				<a href="/auth" class="upper-nav-text"> {{currentUser}}</a>
+				<a href="" class="upper-nav-text">Help</a>
+				<a ui-sref="checkout" class="upper-nav-text"><span class="glyphicon glyphicon-shopping-cart"></span></a>
+				<img src="./css/images/navbarpics/americanflag.png" alt="">
+			</div>
+
+		</section>
+	</nav>
+
+	<!-- Lower Nav -->
+	<nav class="menu-bar">
+		<div class="menu logo">
+			<a ui-sref="home"><img src="./css/images/navbarpics/nikeLogo.png" alt=""></a>
+		</div>
+		<div class="menu categories">
+			<a ui-sref="men" class="underline">Men</a>
+			<a ui-sref="women" class="underline">Women</a>
+			<a ui-sref="boys" class="underline">Boys</a>
+			<a ui-sref="girls" class="underline">Girls</a>
+			<a ui-sref="customize" class="underline">Customize</a>
+		</div>
+		<div class="menu search-bar">
+				<input type="text" class="search" placeholder="Search Here">
+		</div>
+	</nav>
+</header>

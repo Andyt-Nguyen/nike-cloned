@@ -1,0 +1,58 @@
+<section class="shopping-page">
+
+	<!-- Banner Poster -->
+	<section class="the-products">
+
+
+
+<!-- Left Hand Column -->
+<!-- L-Column Will Remain Static -->
+		<section class="left-hand-column">
+			<left-hand-w></left-hand-w>
+		</section>
+
+
+
+
+<!-- Right Hand Column -->
+<!-- R-Side Will Constantly Be Changing -->
+		<section class="right-hand-column">
+			<div class="shopping-poster-pic">
+				<img src="./css/products/productsimage/nikewproducts/nikewposter.png" alt="">
+				<div class="shopping-poster-text">
+					<h1>Lifestyle</h1>
+				</div>
+			</div>
+
+
+
+
+
+
+
+
+
+
+
+			<div class="the-breaker">
+				<h1>Lifestyle</h1>
+			</div>
+			<!-- The Real Deal Stuff -->
+			<div class="the-real-products">
+				<div ng-repeat= "shoes in WLSShoes">
+					<img ng-src="{{shoes.img}}" alt="" ui-sref="wshoe({id:shoes.product_id})">
+					<h5 style="margin:0; padding:0;">{{shoes.name}}</h5>
+					<h6 style="margin:0; padding:0">Women's Shoe</h6>
+					<p style="margin:0; padding:0">{{shoes.price | currency}}</p>
+				</div>
+			</div>
+
+
+
+
+
+
+		</section>
+
+	</section>
+</section>

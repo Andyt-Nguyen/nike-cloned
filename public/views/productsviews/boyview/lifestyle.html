@@ -1,0 +1,55 @@
+<section class="shopping-page">
+
+	<!-- Banner Poster -->
+	<section class="the-products">
+
+
+
+<!-- Left Hand Column -->
+<!-- L-Column Will Remain Static -->
+		<section class="left-hand-column-kids">
+			<left-hand-b></left-hand-b>
+		</section>
+
+
+
+
+
+
+<!-- Right Hand Column -->
+<!-- R-Side Will Constantly Be Changing -->
+		<section class="right-hand-column-kids">
+			<div class="shopping-poster-pic-kids">
+				<div class="shopping-multi-image">
+					<div ng-repeat="nshoes in NikeBProds">
+						<a ui-sref="{{nshoes.categ}}"><img ng-src="{{nshoes.img}}" alt=""></a>
+						<h4>{{nshoes.title}}</h4>
+					</div>
+				</div>
+				<div class="shopping-poster-text-kids">
+					<h1>Find the</h1>
+					<h1>perfect pair</h1>
+					<p>For sport. For play.</p>
+					<p>For everyday.</p>
+				</div>
+			</div>
+
+
+
+			<div class="the-breaker">
+			<h1>Life Style</h1>
+			</div>
+			<!-- The Real Deal Stuff -->
+			<div class="the-real-products">
+				<div ng-repeat= "shoes in LSShoes">
+					<img style="padding:3%;" ng-src="{{shoes.img}}" alt="" ui-sref="bshoe({id:shoes.product_id})">
+					<h5 style="margin:0; padding:0">{{shoes.name}}</h5>
+					<h6 style="margin:0; padding:0">Big Kids' Running Shoe</h6>
+					<p style="margin:0; padding:0">{{shoes.price | currency}}</p>
+				</div>
+			</div>
+
+
+		</section>
+	</section>
+</section>

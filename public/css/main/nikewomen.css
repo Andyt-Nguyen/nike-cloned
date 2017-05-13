@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+/*NikeWomen Header*/
+.nike-women-page {
+	padding-top: 2%;
+	width: 100%;
+	font-family: "Lato"
+
+}
+/*Women Header*/
+
+
+
+/*NikeWomen Video*/
+
+.nikewomen-video-sect {
+	position: relative;
+}
+
+.nikewomen-video {
+	object-fit: fill;
+	width: 100%;
+	height: 79vh;
+}
+
+.nikewomen-video-cap {
+	width: 20%;
+	position: absolute;
+	color: #fff;
+	top: 28%;
+	right: 3%;
+}
+
+.nikewomen-video-cap h1{
+	font-size: 43px;
+	text-transform: uppercase;
+	font-family: "Fjalla One";
+	margin-left: 10%;
+	padding: 0;
+}
+
+.nikewomen-video-cap p {
+	margin-left: 10%;
+}
+
+.nikewomen-video-cap .w-p-2{
+	margin-left: 30%;
+	padding: 0;
+}
+
+.women-shop-btn {
+	text-align: right;
+	margin-left: 60%;
+	padding: 10px 20px 10px 20px;
+	color: #252525;
+	font-size: 12px;
+	font-family: 'Fjalla One';
+	border: 2px solid #fff;
+	border-radius: 5px;
+	text-transform: uppercase;
+	background: white;
+}
+/*NikeWomen Vido*/
+
+
+/*Womens Latest Shoes*/
+.women-latest-shoes h1{
+	font-size: 18px;
+	margin-left: 20px;
+	font-family: "Fjalla One";
+	text-transform: uppercase;
+}
+
+.w-latest-shoes {
+	display: flex;
+}
+
+.w-latest-shoes img {
+	padding: 20px;
+}
+
+.w-latest-shoes h4 {
+	font-family: "Fjalla One"
+}
+
+.w-latest-shoes h4, .w-latest-shoes p {
+	text-align: center;
+}
+
+/*Womens Latest Shoes*/
+
+/*Featured*/
+.women-featured h1{
+	font-size: 18px;
+	font-family: "Fjalla One";
+	text-transform: uppercase;
+	margin-left: 20px;
+}
+
+.women-featured-pics {
+	display: flex;
+	justify-content: center;
+}
+
+.women-featured-pics img {
+	padding: 5px;
+}
+
+.women-featured-text {
+	display: flex;
+	justify-content: center;
+}
+
+.w-featured-1-text {
+	flex: 1;
+	text-align: center;
+}
+
+.w-featured-2-text {
+	flex: 1;
+	text-align: center;
+}
+
+.w-f-text h1 {
+	font-family: "Fjalla One";
+}
+
+.w-featured-btn {
+	text-align: right;
+	padding: 14px;
+	color: #fff;
+	font-size: 12px;
+	font-family: 'Fjalla One';
+	border: 2px solid #fff;
+	text-transform: uppercase;
+	background: #222222;
+}
+/*Featured*/
+
+/*Shop by*/
+.w-shop-by-sect h1{
+	font-size: 18px;
+	font-family: "Fjalla One";
+	text-transform: uppercase;
+	margin-left: 20px;
+}
+
+.w-shop-by-pics {
+	display: flex;
+	justify-content: center;
+}
+
+.w-shop-by-pics img{
+	display: flex;
+	justify-content: center;
+	padding: 5px;
+}
+
+/* Nike Apps */
+.nike-app {
+	margin-top: 100px;
+}
+.nike-app h1{
+	font-size: 18px;
+	font-family: "Fjalla One";
+	text-transform: uppercase;
+	margin-left: 20px;
+}
+
+.nike-app-pics {
+	display: flex;
+	justify-content: center;
+}
+
+.nike-app-pics img{
+	padding: 5px;
+}
+
+.intro-apps {
+	margin-top: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.intro-apps h1{
+	font-size: 31px;
+	font-family: 'Fjalla One';
+}
+
+.intro-apps p{
+	font-size: 16px;
+}
+
+.nike-app-container {
+	margin-left: 6%;
+	width: 90%;
+}
+.nike-app-apps {
+	display: flex;
+	justify-content: space-around;
+}
+
+.nike-w-apps {
+	text-align: center;
+}
+
+/* Nike Apps */
+
+/*Nike Follow*/
+
+.w-nike-follow-container {
+	width: 100%;
+	height: 30vh;
+	background: #f0f0f0;
+}
+
+.w-follow-title {
+	display: flex;
+	justify-content: center;
+	padding-top: 30px;
+	color: #252525;
+}
+
+.w-follow-apps-container {
+	padding-top: 20px;
+	margin-left: 32%;
+	width: 37%;
+	display: flex;
+	justify-content: space-around;
+}
+/*Nike Follow*/

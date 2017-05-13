@@ -1,0 +1,81 @@
+footer{
+	background: #1a1a1a;
+	height: 330px;
+	z-index: -1;
+}
+.footer-info {
+	width: 100%;
+	margin-top: 150px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+}
+
+.col-1 .col-top, .col-2 .col-top, .col-3 .col-top, .col-top {
+	padding-top:45px;
+	color: white;
+	font-size: .875em;
+}
+.col-1 a, .col-2 a, .col-3 a, .col-4 a{
+	text-decoration: none;
+	text-transform: uppercase;
+	padding-bottom: 20px;
+	font-family: "Fjalla One";
+	letter-spacing: .03em;
+	color:#999;
+	font-size: .688em
+}
+.col-1 a{
+	color: white;
+	font-size: .875em;
+}
+
+.col-1 {
+	flex:3;
+	flex-direction: column;
+	display: flex;
+	align-items: center;
+}
+
+.col-2 {
+	flex:1;
+	flex-direction: column;
+	display: flex;
+	align-items: center;
+}
+
+.col-3 {
+	flex:1;
+	flex-direction: column;
+	display: flex;
+	align-items: center;
+}
+
+.col-4 {
+	flex:4;
+	flex-direction: column;
+	display: flex;
+	align-items: center;
+}
+#social {
+	color: white;
+	font-size: .875em;
+}
+
+.col-4-1{
+	flex-direction: row;
+}
+
+.copyright-container{
+	display: flex;
+	border-top: 1px solid #444;
+	width: 65%;
+	position: absolute;
+	left: 14%;
+	justify-content: space-between;
+
+}
+.copyright {
+	background: #1a1a1a;
+}

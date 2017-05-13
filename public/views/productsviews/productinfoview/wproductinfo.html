@@ -1,0 +1,50 @@
+<section class="productview-sect">
+
+
+	<div class="productview-mini-pics">
+		<img width='63px' ng-src="{{singleItem[0].img}}" alt="">
+	</div>
+
+	<div class="productview-main-pic">
+		<img ng-src="{{singleItem[0].img}}" alt="">
+	</div>
+
+	<div class="productview-desc-sect">
+		<div class="productview-desc">
+			<div class="productview-text">
+				<h3>{{singleItem[0].name}}</h3>
+				<h6>Womens' Shoes</h6>
+				<h4>{{singleItem[0].price | currency}}</h4>
+			</div>
+
+			<div class="productview-desc-rating">
+				<img src="views/productsviews/productinfoview/img/rating.png" alt="">
+			</div>
+		</div>
+
+
+
+		<hr>
+
+
+		<div class="mini-desc">
+			<p class="mini-desc-p">{{singleItem[0].name}}</p>
+			<p class="mini-desc-style">Style: 242987-003</p>
+		</div>
+
+<!-- Mini Image -->
+		<div>
+			<img width='60px' height='64px' style="border:2px solid #ccc" ng-src="{{singleItem[0].img}}" alt="">
+		</div>
+
+<!-- Buttons Size/AddCart -->
+		<div class="productview-mini-buttons">
+			<button class="product-view-size">One Size Fits All</button>
+			<button class="product-view-cart" ng-click="addToCart(singleItem[0])">{{add}}</button>
+		</div>
+	</div>
+</section>
+
+
+
+<!-- Notes -->

@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+.video-men {
+	padding-top: 2%;
+	font-family: "Fjalla One"
+}
+
+/* Nike Men Video Section */
+.nikemen-video {
+	position: relative;
+	object-fit: fill;
+	width: 100vw;
+	height: 75vh;
+	z-index: 0;
+}
+
+.nikemen-vid-cap {
+	position: absolute;
+	z-index: 5;
+	bottom: 10%;
+	right: 4%;
+	font-family: "Fjalla One";
+	color: #fff;
+}
+
+.nikemen-vid-cap h1{
+	font-size: 49px;
+	text-transform: uppercase;
+	color: white;
+}
+
+#para-men {
+	padding-left: 55px;
+}
+
+.nikemen-btn {
+	position: absolute;
+	right: 5%;
+	bottom:0%;
+	position: absolute;
+	padding: 14px;
+	color: black;
+	font-size: 12px;
+	font-family: 'Fjalla One';
+	border: 2px solid #ccc;
+	border-radius: 5px;
+	text-transform: uppercase;
+	background: white;
+}
+/* Nike Men Video Section */
+
+
+
+
+/*Find The Right Shoe For Your Sport*/
+.shop-men-shoes a {
+	color: #252525;
+}
+
+.shop-men-shoes{
+	position: relative;
+	height: 70vh;
+}
+
+.nike-men-text {
+	position: absolute;
+	width: 223px;
+	left: 3%;
+	top: 18%;
+}
+
+.nike-men-text .nike-men-title{
+	font-size: 35px;
+	font-weight: 400;
+	text-transform: uppercase;
+	font-family: 'Fjalla One';
+}
+
+.nike-men-text .nike-men-p {
+	font-size: 13px;
+	font-family: 'Fjalla One';
+
+}
+
+.nike-men-shoes {
+	position: absolute;
+	left:15%;
+	height: 90vh;
+	width: 80%;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.nike-men-shoes img{
+	padding: 30px;
+	height: 200px;
+	width: 100%;
+}
+
+.nike-men-shoes h3{
+	font-size: 15px;
+	font-family: 'Fjalla One';
+	text-transform: uppercase;
+	font-weight: 400;
+	text-align: center;
+	cursor: pointer;
+	text-decoration: none;
+	color: #000;
+}
+/*Find The Right Shoe For Your Sport*/
+
+
+
+/* Poster With Hover Shop Now */
+.shop-now-men{
+	position: relative;
+	margin-top: 116px;
+}
+/*--Need To Hide Button then show--*/
+
+
+.shop-now-men .nikemen-btn {
+	visibility: visible;
+	position: absolute;
+	right: 46%;
+	bottom: 45%;
+}
+
+.shop-now-men img:hover .shop-now-men .nikemen-btn{
+	visibility: visible;
+}
+
+/**/
+
+.free-rn {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 20%;
+	width: 100%;
+	padding-top: 2%;
+}
+
+.free-rn a {
+	color: #252525;
+}
+
+.free-rn h3 {
+	text-transform: uppercase;
+	font-family: 'Fjalla One';
+}
+/* Poster With Hover Shop Now */
+
+
+
+
+/* Targeted Cooling and Comfort Nike Flyknit */
+
+/*--Add Buttons bro--*/
+.men-double-image {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.cool-comfort {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.cool-left-left {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	border-right: 2px solid #ccc;
+}
+
+.cool-right-right {
+	flex: 1;
+	text-align: center;
+}
+
+.cool-left-left h3, .cool-right-right h3{
+	font-size: 18px;
+	color: #252525;
+}
+
+.cool-left-left span, .cool-right-right span {
+	font-size: 12px;
+	color: #252525;
+}
+
+.cool-left {
+	width: 70%;
+	text-align: center;
+}
+
+
+
+/* CR7 CHAPTER 4 MERCURIAL SUPERFLY */
+/*--Add button brosiden--*/
+.cp7 {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+.cp7-box {
+	display: flex;
+	justify-content: center;
+}
+.cp7-desc {
+	padding: 30px;
+	width: 30%;
+	height: 25.1vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.cp7-desc a h4 {
+	color: #252525;
+	font-family: 'Fjalla One';
+	font-size: 22px;
+	text-transform: uppercase;
+}
+.cp7-desc a p {
+	color: #252525;
+	font-family: 'Fjalla One';
+	font-size: 13px;
+	text-align: center;
+	text-transform: capitalize;
+}
+
+
+
+/* Nike Plus App */
+.nike-plus-sect {
+	width: 100%;
+	height: 70vh;
+	background: #f0f0f0;
+}
+
+.intro-nike-plus {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+.intro-nike-desc {
+	width: 100%;
+}
+
+.nike-plus-apps {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.plus-apps {
+	padding-top: 10px;
+	padding-left: 100px;
+	padding-right: 100px;
+	border: 8px solid #f0f0f0;
+}
+
+.nike-plus-apps h5{
+	font-size: 18px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.nike-plus-apps p {
+	font-size: 13px;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	text-transform: capitalize;
+}
+
+/* Social Network Follow */
+.social-title{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin: 50px;
+	text-transform: uppercase;
+}
+
+.social-title h5 {
+	font-size: 20px;
+}
+
+.social-med{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.social-med a img {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+/* Social Network Follow */
+/* Nike Plus App */

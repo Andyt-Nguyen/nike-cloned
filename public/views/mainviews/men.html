@@ -1,0 +1,175 @@
+<section class="video-men">
+
+
+<!-- **Nike Men Header -->
+	<div class="adult-header">
+		<h1 class="adult-title">Nike Men</h1>
+		<div class="adult-nav">
+			<a ui-sref="mproduct" class="adult-nav-text">Shoes</a>
+			<a ui-sref="mproduct" class="adult-nav-text adult-border">Clothing</a>
+			<a ui-sref="mproduct" class="adult-nav-text">Best Sellars</a>
+			<a ui-sref="mproduct" class="adult-nav-text  adult-border">Trending</a>
+			<a ui-sref="mproduct" class="adult-nav-text">Nike Free</a>
+		</div>
+	</div>
+
+
+<!-- Nike Men Video Section -->
+	<section class="men-video-container">
+		<video class="nikemen-video" autoplay="true" loop muted poster="css/images/nikemen.png">
+			<source src="css/videos/nikemensoc.mp4" type="video/mp4">
+		</video>
+
+		<div class="nikemen-vid-cap">
+			<h1>Stay Restless</h1>
+				<p>Own the court, rule the pitch and run the streets from</p>
+				<p id="para-men">dawn to dusk. Be everywhere, except inside.</p>
+		</div>
+		<button class="nikemen-btn shopper-anim-btn" ui-sref="mproduct">Shop Summer Styles</button>
+	</section>
+
+
+<!-- Find The Right Shoe For Your Sport -->
+	<section class="shop-men-shoes">
+		<div class="nike-men-text">
+			<span class="nike-men-title">Find the right</span>
+			<span class="nike-men-title">shoe for</span>
+			<span class="nike-men-title">your sport</span>
+			<br><br>
+			<span class="nike-men-p">Up your game in our latest</span><br>
+			<span class="nike-men-p">innovations for the court, the pitch</span><br>
+			<span class="nike-men-p">and everywhere in between.</span> <br><br>
+			<a href="#">Shop all men shoes</a>
+		</div>
+		<div class="nike-men-shoes">
+			<div class="nike-mens-shoes" ng-repeat="shoes in nikeShoes">
+				<img ui-sref="mproduct" ng-src="{{shoes.img}}" class="shopper-anim-pic" alt="">
+				<a ui-sref="mproduct"><h3>{{shoes.name}}</h3></a>
+			</div>
+		</div>
+	</section>
+
+
+<!-- Poster With Hover Shop Now -->
+	<section>
+		<section class="shop-now-men">
+			<img src="css/images/nikempng/menshoeshop.png" class="shopper-anim-pic" alt="">
+			<button ui-sref="mproduct" class="nikemen-btn shopper-anim-btn">Shop Now</button>
+		</section>
+
+		<section class="free-rn">
+			<a ui-sref="mproduct"><h3>Nike Free Rn Flyknit 2017</h3></a>
+			<a ui-sref="mproduct"><span>An upgrade running favorite with greater flex and a more responsive fit</span></a>
+		</section>
+	</section>
+
+
+
+<!-- Targeted Cooling and Comfort Nike Flyknit -->
+	<section>
+		<div class="men-double-image">
+			<img ui-sref="mproduct" src="css/images/nikempng/golferbros.png" alt="">
+			<img ui-sref="mproduct" src="css/images/nikempng/fnshoe.png" alt="">
+		</div>
+	</section>
+	<section class="cool-comfort">
+		<div class="cool-left-left">
+			<div class="cool-left">
+				<a ui-sref="mproduct"><h3>Targeted cooling and comfort</h3></a>
+				<a ui-sref="mproduct"><span>Zones of engineered open knit deliver cooling where golfers need it most,
+				while optimizing motion through the swing plane – so you'll both look and feel
+				as cool as you possibly can.</span></a>
+			</div>
+		</div>
+		<div class="cool-right-right">
+			<a ui-sref="mproduct"><h3>NIKE FLYKNIT MULTI RACER 2.0</h3></a>
+			<a ui-sref="mproduct"><span>The crowd favorite is back</span></a>
+		</div>
+	</section>
+
+
+<!-- CR7 CHAPTER 4 MERCURIAL SUPERFLY -->
+	<section class="cp7-sect">
+		<div class="cp7">
+			<img src="css/images/nikempng/cp7.png" alt="">
+		</div>
+	</section>
+	<section class="cp7-box">
+		<div class="cp7-desc">
+			<a ui-sref="mproduct"><h4>Cr7 chapter 4 mercurial superfly</h4></a>
+			<a ui-sref="mproduct">
+				<p>
+					He arrived in Manchester as cristiano ronaldo. forged in the fire of
+					battle, he emerged as cr7, one of the greates players in history.
+				</p>
+			</a>
+		</div>
+	</section>
+
+
+<!-- Nike Plus App -->
+	<section class="nike-plus-sect">
+		<div class="intro-nike-plus">
+			<div class="intro-plus-desc">
+				<h1>Introducing Nike+</h1>
+				<p>Experience everything Nike+ has to offer through Nike.com and our related apps.</p>
+			</div>
+		</div>
+		<div class="nike-plus-apps">
+			<div ng-repeat="plus in nikePlus">
+				<a href="#"><img class="plus-apps" ng-src="{{plus.img}}" alt=""></a>
+				<h5>{{plus.name}}</h5>
+				<p>{{plus.desc}}</p>
+			</div>
+		</div>
+
+
+<!-- Social Network Follow -->
+		<div class="social-title">
+			<h5>Follow Nike</h5>
+		</div>
+		<div class="social-med">
+			<div class="ind-med" ng-repeat="follow in nikeFollow">
+				<a href="#"><img ng-src="{{follow.img}}" alt=""></a>
+			</div>
+		</div>
+	</section>
+
+
+
+<!-- **Categories -->
+	<section class="nike-a-categ">
+		<div class="a-categories-box">
+			<div class="a-categories">
+				<div class="a-shoes a-categ-display">
+					<h5>Men's Shoes</h5>
+					<a href="#">All Men's Shoes</a>
+					<a href="#">Cleats and Spikes</a>
+					<a href="#">Sandals</a>
+					<a href="#">Boots</a>
+				</div>
+				<div class="a-clothing a-categ-display">
+					<h5>Men's Clothing</h5>
+					<a href="#">All Men's Clothing</a>
+					<a href="#">Tops & T-shirts</a>
+					<a href="#">Jackets</a>
+					<a href="#">Hoodies</a>
+				</div>
+				<div class="a-gear a-categ-display">
+					<h5>Men's Gear</h5>
+					<a href="#">All Men's Gear</a>
+					<a href="#">Socks</a>
+					<a href="#">Bags & Backpacks</a>
+					<a href="#">Balls</a>
+				</div>
+				<div class="a-featured a-categ-display">
+					<h5>Featured</h5>
+					<a href="#">New Releases</a>
+					<a href="#">Clearance</a>
+					<a href="#">NikeiD</a>
+					<a href="#">NFL</a>
+				</div>
+			</div>
+		</div>
+	</section>
+</section>

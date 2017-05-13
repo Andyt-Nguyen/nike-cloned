@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+
+/* Left Hand Column */
+.left-hand-column-kids {
+	padding-left: 25px;
+	width: 20%;
+	color: black;
+	/*border: 2px solid blue;*/
+}
+
+.left-hand-column-kids h3 {
+	font-family: "Fjalla One";
+	text-transform: uppercase;
+}
+
+/*Right Hand Column*/
+.shopping-poster-pic-kids {
+	position: relative;
+}
+
+.right-hand-column-kids {
+	/*border: 2px solid purple;*/
+	width: 100%;
+}
+
+.shopping-multi-image {
+	background: #dfdfdf;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	width: 100%;
+	/*border: 2px solid red;*/
+}
+
+.shopping-multi-image img {
+	padding: 10px;
+	height: 191px;
+}
+
+.shopping-poster-text-kids {
+	position: absolute;
+	bottom: 10%;
+	left: 3%;
+	color: #222222;
+}
+
+.shopping-poster-text-kids h1{
+	font-family: "Fjalla One";
+	text-transform: uppercase;
+	font-size: 25px;
+	margin: 0;
+	padding: 0;
+}
+
+.shopping-poster-text-kids p {
+	padding: 0;
+	margin: 0;
+}
+
+.categories-under-shoes {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}

@@ -1,0 +1,59 @@
+<section class="shopping-page">
+
+	<!-- Banner Poster -->
+	<section class="the-products">
+
+
+
+<!-- Left Hand Column -->
+<!-- L-Column Will Remain Static -->
+		<section class="left-hand-column">
+			<h3>Mens</h3>
+			<left-hand-adults></left-hand-adults>
+		</section>
+
+
+
+
+
+
+<!-- Right Hand Column -->
+<!-- R-Side Will Constantly Be Changing -->
+	<section class="right-hand-column">
+		<div class="shopping-poster-pic">
+			<img src="./css/products/productsimage/nikemproducts/nikembanner.png" alt="">
+			<div class="shopping-poster-text">
+				<h1>Training</h1>
+			</div>
+		</div>
+
+
+
+
+
+
+
+		<div class="the-breaker">
+		<h1>Training & Gym</h1>
+		</div>
+		<!-- The Real Deal Stuff -->
+		<div class="the-real-products">
+			<div ng-repeat= "shoes in GTShoes">
+				<img ng-src="{{shoes.img}}" alt="" ui-sref="mshoe({id:shoes.product_id})">
+				<h5 style="margin:0; padding:0; width:60%; font-size: 10px;">{{shoes.name}}</h5>
+				<h6 style="margin:0; padding:0">Men's Running Shoe</h6>
+				<p style="margin:0; padding:0">{{shoes.price | currency}}</p>
+			</div>
+		</div>
+
+
+
+
+
+
+
+
+
+	</section>
+	</section>
+</section>

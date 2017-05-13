@@ -1,0 +1,47 @@
+.caro-super-container{
+	padding-top: 7.9%;
+	width:100%;
+	position: relative;
+}
+
+
+.caro-container {
+	background: #f7f7f7;
+	position: relative;
+	z-index: 49;
+
+}
+
+.carousel-cell {
+  width: 66%;
+  margin-right: 10px;
+  background: #f7f7f7;
+  border-radius: 5px;
+	text-align: center;
+	padding: 15px;
+}
+
+/* cell number */
+.carousel-cell:before {
+  display: block;
+  text-align: center;
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+
+.shipping {
+	color: black;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.free-shipping {
+	font-size: 12px;
+}
+
+.free-shipping a {
+	text-decoration: underline;
+	color: black;
+}

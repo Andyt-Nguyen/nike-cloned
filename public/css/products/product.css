@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+
+/* The Products */
+.the-products {
+	display: flex;
+	justify-content: space-between;
+}
+
+/*---------------- Left Hand Column ---------------- */
+
+
+.left-hand-column {
+	padding-left: 25px;
+	width: 100%;
+	color: black;
+}
+
+.left-hand-column h3 {
+	font-family: "Fjalla One";
+	text-transform: uppercase;
+}
+
+.hr-line {
+	width: 85%;
+}
+
+
+/* Shoe Shopping */
+.shop-prods {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.shop-prods-categ {
+	display: flex;
+	flex-direction: column;
+	padding-left: 10px;
+}
+
+.shop-prods-categ a {
+	font-family: 'Lato';
+	text-decoration: none;
+	color: black;
+	padding-bottom: 5px;
+}
+
+.shop-prods-categ .prods:hover {
+	cursor: pointer;
+	color: #c6c6c6;
+}
+.shop-prods-categ .prods {
+	width: 50%;
+	/*border: 2px solid aqua;*/
+}
+.shop-prods-categ h5 {
+	font-family: "Fjalla One";
+	text-transform: uppercase;
+}
+
+.shop-prods-categ span {
+	font-weight: 600;
+	font-size: 25px;
+	text-align: center;
+}
+
+.shop-categ-coll {
+	display: flex;
+	/*border: 2px solid red;*/
+	justify-content: space-between;
+}
+
+/*---------------- Left Hand Column ---------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------- Right Hand Column ---------------- */
+.shopping-poster-pic {
+	position: relative;
+}
+
+.shopping-poster-text {
+	position: absolute;
+	bottom: 10%;
+	left: 3%;
+	color: white;
+	text-transform: uppercase;
+}
+
+.shopping-poster-text h1{
+	font-family: "Fjalla One";
+	font-size: 25px;
+	margin: 0;
+	padding: 0;
+}
+
+/*The Breaker*/
+.the-breaker {
+	border-bottom: 2px solid #ccc;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	font-family: "Fjalla One";
+}
+
+/*The Real Products*/
+.the-real-products {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	/*border: 2px solid red;*/
+	width: 75vw;
+}
+
+.the-real-products h5 {
+	width: 60%;
+	margin-bottom: 12px;
+}
+
+.the-real-products h5,.the-real-products p {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+
+.the-real-products p, .the-real-products h6{
+	color: #bbbbbb;
+}
+
+.the-real-products img{
+	width:218px;
+	height:220px;
+	transition: .4s;
+	transform: translateZ(20px);
+	padding: 02px;
+}
+
+
+.the-real-products img:hover{
+	cursor: pointer;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	height: 226px;
+}
+
+/*---------------- Right Hand Column ---------------- */
