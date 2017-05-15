@@ -47,7 +47,7 @@ function(accessToken, refreshToken, extraParams, profile, done) {
     if (!user) { //if there isn't one, we'll create one!
     console.log('CREATING USER');
     if (profile.name.familyName && profile.name.givenName) {
-      var data =
+      let data =
       [
         profile.displayName,
         profile.id
@@ -55,7 +55,7 @@ function(accessToken, refreshToken, extraParams, profile, done) {
 
     } else {
 
-      var data =
+      let data =
       [
         profile.displayName,
         profile.id

@@ -5,11 +5,10 @@ NikeApp.service('NikeService',['$http', function($http){
 //////////////////
 
 //Cart
-
 this.addToCart = [];
-this.addToHistory = function(id){
-	for (var i = 0; i < this.addToCart.length; i++) {
-	var request = {
+this.addToHistory = (id) =>{
+	for (let i = 0; i < this.addToCart.length; i++) {
+	let request = {
 		user_id:id,
 		product_id: this.addToCart[i].product_id
 	}
@@ -21,78 +20,39 @@ this.addToHistory = function(id){
 	})
 	}
 	this.addToCart=[];
-}
+};
 
-
-	// this.buyProduct = function(id,product){
-	// 	return $http({
-	// 		method: 'POST',
-	// 		url:'/shoppingcart',
-	// 		data:{
-	// 			id,
-	// 			product
-	// 		}
-	// 	}).then(function(response){
-	// 		return response;
-	// 	});
-	// };
-	//
-	//
-	// this.getCart = (user) => {
-	// 	console.log('get cart for ', user);
-	// 	return $http({
-	// 		method: 'POST',
-	// 		url:'/getcart',
-	// 		data: {
-	// 			user
-	// 		}
-	// 	}).then(function(response){
-	// 		return response.data;
-	// 	});
-	// };
 
 //All Shoes
-	this.getAllShoes = function(){
-		return fpromise('GET','/getAllProds');
-	};
-
-
+	this.getAllShoes =()=> fpromise('GET','/getAllProds');
 
 ////////////
 //Nike Men//
 ////////////
 
-	this.getNikeMAShoes = function(){
-		return fpromise('GET', '/nikemshoes');
-	};
+	this.getNikeMAShoes =() => fpromise('GET', '/nikemshoes');
 
 
 //MLifeStyle
-	this.getNikeMLSShoes = function(){
-		return fpromise('GET','/nikemlsshoes');
-	}
+	this.getNikeMLSShoes = () => fpromise('GET','/nikemlsshoes');
+
 
 
 
 //MRunning
-	this.getNikeMRnShoes = function(){
-		return fpromise('GET', '/nikemrnshoes');
-	}
+	this.getNikeMRnShoes = () =>  fpromise('GET', '/nikemrnshoes');
 
 //MBasketball
-	this.getNikeMBShoes = function(){
-		return fpromise('GET','/nikembshoes');
-	};
+	this.getNikeMBShoes = () =>  fpromise('GET','/nikembshoes');
+
 
 //mSoccer
-	this.getNikeMSShoes = function(){
-		return fpromise('GET','/nikemsshoes');
-	};
+	this.getNikeMSShoes = () =>  fpromise('GET','/nikemsshoes');
+
 
 //MTraining And Gym
-	this.getNikeMTGShoes = function(){
-		return fpromise('GET','/niketgshoes');
-	};
+	this.getNikeMTGShoes = () =>  fpromise('GET','/niketgshoes');
+
 
 
 
@@ -100,68 +60,49 @@ this.addToHistory = function(id){
 ///////////////
 //Nike Women//
 /////////////
-	this.getAllNikeWShoes = function(){
-		return fpromise('GET','/nikewshoes');
-	}
+	this.getAllNikeWShoes = () =>  fpromise('GET','/nikewshoes');
 
 //wLifestyle
-	this.getNikeWLSShoes = function(){
-		return fpromise('GET','/nikewlsshoes');
-	}
+	this.getNikeWLSShoes = () =>  fpromise('GET','/nikewlsshoes');
 
 //wRunning
-	this.getNikeWRnShoes = function(){
-		return fpromise('GET','/nikewrnshoes');
-	}
+	this.getNikeWRnShoes = () =>  fpromise('GET','/nikewrnshoes');
 
 //wBasketball
-	this.getNikeWBShoes = function(){
-		return fpromise('GET','/nikewbshoes');
-	}
+	this.getNikeWBShoes = () =>  fpromise('GET','/nikewbshoes');
 
 //wSoccer
-	this.getNikeWSShoes = function(){
-		return fpromise('GET','/nikewsshoes');
-	}
+	this.getNikeWSShoes = () =>  fpromise('GET','/nikewsshoes');
 
 //wTraining
-	this.getNikeWTGShoes = function(){
-		return fpromise('GET','/nikewtgshoes');
-	};
+	this.getNikeWTGShoes = () =>  fpromise('GET','/nikewtgshoes');
+
 
 
 
 /////////////
 //NikeBoys//
 ///////////
-	this.getABShoes = function(){
-		return fpromise('GET','/nikebshoes');
-	};
+	this.getABShoes = () =>  fpromise('GET','/nikebshoes');
+
 
 //Lifestye
-	this.getNikeBLSShoes = function(){
-		return fpromise('GET','/nikeblsshoes');
-	};
+	this.getNikeBLSShoes = () =>  fpromise('GET','/nikeblsshoes');
+
 
 //Running
-	this.getNikeBRnShoes = function(){
-		return fpromise('GET', '/nikebrunning');
-	};
+	this.getNikeBRnShoes = () =>  fpromise('GET', '/nikebrunning');
+
 
 //Basketball
-	this.getNikeBBShoes = function(){
-		return fpromise('GET', '/nikebbasketball');
-	}
+	this.getNikeBBShoes = () =>  fpromise('GET', '/nikebbasketball');
 
 //Soccer
-	this.getNikeBSShoes = function(){
-		return fpromise('GET','/nikebsoccer');
-	};
+	this.getNikeBSShoes = () =>  fpromise('GET','/nikebsoccer');
+
 
 //Training
-	this.getNikeBTGShoes = function(){
-		return fpromise('GET', '/niketraining');
-	}
+	this.getNikeBTGShoes = () =>  fpromise('GET', '/niketraining');
 
 
 //////////////
@@ -169,35 +110,29 @@ this.addToHistory = function(id){
 ////////////
 
 //GAll Shoes
-	this.getNikeGAShoes = function(){
-		return fpromise('GET','/nikegshoes');
-	};
+	this.getNikeGAShoes = () =>  fpromise('GET','/nikegshoes');
+
 
 //GLife Style
-	this.getNikeGLS = function(){
-		return fpromise('GET','/nikeglsshoes');
-	};
+	this.getNikeGLS = () =>  fpromise('GET','/nikeglsshoes');
+
 
 //GRunning
-	this.getNikeGRnShoes = function(){
-		return fpromise('GET','/nikegrnshoes')
-	};
+	this.getNikeGRnShoes = () =>  fpromise('GET','/nikegrnshoes');
+
 
 
 //GBasketball
-	this.getNikeGBShoes = function(){
-		return fpromise('GET','/nikegbshoes');
-	};
+	this.getNikeGBShoes = () =>  fpromise('GET','/nikegbshoes');
+
 
 //GSoccer
-	this.getNikeGSShoes = function(){
-		return fpromise('GET','/nikegsshoes');
-	};
+	this.getNikeGSShoes = () =>  fpromise('GET','/nikegsshoes');
+
 
 //GJordan
-	this.getNikeJShoes = function(){
-		return fpromise('GET','/nikegjshoes')
-	};
+	this.getNikeJShoes = () =>  fpromise('GET','/nikegjshoes');
+
 
 
 //Men Section
@@ -371,13 +306,13 @@ this.addToHistory = function(id){
 
 
 	//Callback :)
-	var fpromise = function(a,b){
-		var promise =
+	let fpromise = (a,b) =>{
+		let promise =
 		$http({
 				method: a,
 				url: b
 			});
-		 return promise.then(function(result){
+		 return promise.then((result) =>{
 			return result.data;
 		})
 	};
@@ -387,32 +322,30 @@ this.addToHistory = function(id){
 
 
 	//InTo LogOut
-	this.getUser = function() {
+	this.getUser = () => {
 	  return $http({
 	    method: 'GET',
 	    url: '/auth/me'
 	  })
-	  .then(function(res) {
-	    console.log(res.data);
+	  .then((res) => {
 	    this.user_id=res.data.user_id;
 			return res.data;
 	  })
-	  .catch(function(err) {
+	  .catch((err) => {
 	    console.log(err);
 	  })
 	};
 
-	this.logout = function() {
+	this.logout = () => {
 	  console.log('button works');
 	  return $http({
 	    method: 'GET',
 	    url: '/auth/logout'
 	  })
-	  .then(function(res) {
+	  .then((res) => {
 	    return res.data;
 	  })
-	  .catch(function(err) {
-	    console.log(err);
+	  .catch((err) => {
 	  })
 	};
 

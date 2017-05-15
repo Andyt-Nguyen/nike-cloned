@@ -1,20 +1,18 @@
 NikeApp.controller('BoysProductController', ['$scope', 'NikeService', '$stateParams',function($scope, NikeService,$stateParams){
 	$scope.NikeBProds = NikeService.bProdCategShoes;
 	$scope.add = "Add To Cart"
-	$scope.addToCart = function(item){
+	$scope.addToCart = (item) => {
 		$scope.add = "Added"
 		$scope.addon = true;
-		console.log(item);
 		NikeService.addToCart.push(item);
-		console.log(NikeService.addToCart);
-	}
+	};
 
 //AllShoes
 	$scope.getABShoes = function(){
-		var promise = NikeService.getABShoes();
-		return promise.then(function(result){
+		let promise = NikeService.getABShoes();
+		return promise.then((result) => {
 			$scope.ABShoes = result;
-			$scope.singleItem = $scope.ABShoes.filter(function(data){
+			$scope.singleItem = $scope.ABShoes.filter((data) =>{
 				return data.product_id == $stateParams.id
 			});
 		});
@@ -23,8 +21,8 @@ NikeApp.controller('BoysProductController', ['$scope', 'NikeService', '$statePar
 
 //LifeStyle
 	$scope.getNikeBLSShoes = function(){
-		var promise = NikeService.getNikeBLSShoes();
-		return promise.then(function(result){
+		let promise = NikeService.getNikeBLSShoes();
+		return promise.then((result) =>{
 			$scope.LSShoes = result;
 		});
 	}();
@@ -32,8 +30,8 @@ NikeApp.controller('BoysProductController', ['$scope', 'NikeService', '$statePar
 
 //Running
 	$scope.getNikeRnShoes = function(){
-		var promise = NikeService.getNikeBRnShoes();
-		return promise.then(function(result){
+		let promise = NikeService.getNikeBRnShoes();
+		return promise.then((result) =>{
 			$scope.RnShoes = result;
 		});
 	}();
@@ -41,7 +39,7 @@ NikeApp.controller('BoysProductController', ['$scope', 'NikeService', '$statePar
 
 //Basketball
 	$scope.getNikeBBShoes = function(){
-		var promise = NikeService.getNikeBBShoes();
+		let promise = NikeService.getNikeBBShoes();
 		return promise.then(function(results){
 			$scope.BShoes = results
 		});
@@ -49,29 +47,29 @@ NikeApp.controller('BoysProductController', ['$scope', 'NikeService', '$statePar
 
 //Soccer
 	$scope.getNikeBSShoes = function(){
-		var promise = NikeService.getNikeBSShoes();
-		return promise.then(function(result){
+		let promise = NikeService.getNikeBSShoes();
+		return promise.then((result) =>{
 			$scope.SShoes = result;
 		});
 	}()
 
 //Training
 	$scope.getNikeBTGShoes = function(){
-		var promise = NikeService.getNikeBTGShoes();
-		return promise.then(function(result){
+		let promise = NikeService.getNikeBTGShoes();
+		return promise.then((result) =>{
 			$scope.TGShoes = result;
 		});
 	}()
 
-	// var combo = function(a,b){
-	// 	for(var i = 0; i < a.length; i++){
+	// let combo = function(a,b){
+	// 	for(let i = 0; i < a.length; i++){
 	// 		a[i].img = b[i].img
 	// 	}
 	// };
 
 	//Store Users/Password
 	function getUser() {
-	    NikeService.getUser().then(function(user) {
+	    NikeService.getUser().then((user) => {
 	      console.log('USER DATA',user);
 	      if (user) $scope.currentUser = user;
 	      else   $scope.currentUser = 'NOT LOGGED IN';
