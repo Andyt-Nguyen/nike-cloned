@@ -94,8 +94,6 @@ passport.deserializeUser(function(userB, done) {
 
 
 app.get('/auth', passport.authenticate('auth0'));
-
-
 app.get('/auth/callback',
 passport.authenticate('auth0', {successRedirect: '/#!/'}), function(req, res) {
   // console.log(req.user);
@@ -309,6 +307,6 @@ app.get('/nikegjshoes', function(req, res){
 
 
 
-app.listen(3000, function(){
+app.listen(80, function(){
 	console.log('The service is now running...');
 });
