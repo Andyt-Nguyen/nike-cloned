@@ -33,10 +33,10 @@ app.use(cors());
 
 
 passport.use(new Auth0Strategy({
-  domain:       "andythenuge.auth0.com",
-  clientID:     "Q6AHdV6svawL5PGboUN8FoOW2Ew5YPSt",
-  clientSecret: "7ss1ck_jptNZ8A17AX6pNMOZ5KIAs1qAH1ZYTrHa966U7Y-VXBi-sGUbpF_20TGx",
-  callbackURL:  'http://localhost:3000/auth/callback'
+  domain:       config.auth0.domain,
+  clientID:     config.auth0.clientID,
+  clientSecret: config.auth0.clientSecret,
+  callbackURL:  config.auth0.callbackURL
 },
 
 
