@@ -56,7 +56,7 @@ function(accessToken, refreshToken, extraParams, profile, done) {
 
     } else {
 
-      let data =
+      var data =
       [
         profile.displayName,
         profile.id
