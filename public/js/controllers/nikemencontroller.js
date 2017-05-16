@@ -6,9 +6,7 @@ NikeApp.controller('NikeMenController',['$scope','NikeService', function($scope,
 
 
 	$scope.getShoes = function(){
-		console.log('This is the top of the promise');
 		return NikeService.getAllShoes().then(function(response){
-			console.log('This is the controller ', response);
 			$scope.nikeShoes = response;
 		})
 	}();
