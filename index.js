@@ -8,7 +8,7 @@ const Auth0Strategy = require('passport-auth0');
 const session = require('express-session');
 const conn = massive.connectSync({connectionString:"postgres://postgres:@localhost:4321/products"});
 const app = module.exports = express();
-const config = require('config')
+
 
 
 app.use(session({
@@ -31,10 +31,10 @@ app.use(cors());
 
 
 passport.use(new Auth0Strategy({
-  domain:       config.domain,
-  clientID:     config.clientID,
-  clientSecret: config.clientSecret,
-  callbackURL:  config.callbackURL
+  domain:       "andythenuge.auth0.com",
+  clientID:     "Q6AHdV6svawL5PGboUN8FoOW2Ew5YPSt",
+  clientSecret: "7ss1ck_jptNZ8A17AX6pNMOZ5KIAs1qAH1ZYTrHa966U7Y-VXBi-sGUbpF_20TGx",
+  callbackURL:  'http://localhost:3000/auth/callback'
 },
 
 
