@@ -1,6 +1,8 @@
 NikeApp.directive('slider', function(){
-	return{
-		restrict: 'E',
-		templateUrl: "./views/elementTemplates/slider.html"
+	return {
+		templateUrl: "./views/elementTemplates/slider.html",
+		link: function(sco, ele, attri){
+				$('.carousel').flickity();
+		}
 	}
 })
