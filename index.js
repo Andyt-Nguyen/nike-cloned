@@ -6,7 +6,8 @@ const cors = require('cors');
 const passport = require('passport');
 const Auth0Strategy = require('passport-auth0');
 const session = require('express-session');
-const conn = massive.connectSync({connectionString:"postgres://postgres:@localhost:4321/products"});
+const config = require('./config.js')
+const conn = massive.connectSync({connectionString:config.connectionString});
 const app = module.exports = express();
 
 
@@ -307,6 +308,6 @@ app.get('/nikegjshoes', function(req, res){
 
 
 
-app.listen(80, function(){
+app.listen(3000, function(){
 	console.log('The service is now running...');
 });
