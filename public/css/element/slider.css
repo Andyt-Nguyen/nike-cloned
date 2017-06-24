@@ -1,6 +1,7 @@
+
 .caro-super-container{
-	padding-top: 7.9%;
-	width:100%;
+	padding-top: 7.5%;
+	width: 100%;
 	position: relative;
 }
 
@@ -35,13 +36,31 @@
 	font-weight: 600;
 	text-transform: uppercase;
 	letter-spacing: 1px;
+	font-size: 18px
 }
 
 .free-shipping {
-	font-size: 12px;
+	font-size: 15px;
 }
 
 .free-shipping a {
 	text-decoration: underline;
 	color: black;
+}
+
+@media screen and (max-width:1500px) {
+	.caro-super-container{
+	width: 1440px;
+	padding-top: 115px;
+
+	}
+
+	.shipping {
+		font-size: 15px;
+	}
+
+	.free-shipping {
+		font-size: 12px;
+	}
+
 }

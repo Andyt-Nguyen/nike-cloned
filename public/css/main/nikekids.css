@@ -38,11 +38,12 @@
 	text-transform: uppercase;
 	padding-bottom: 35px;
 }
+
 .nike-kids-nav a {
 	align-self: center;
 	text-decoration: none;
 	color: #999999;
-	font-size: 14px;
+	font-size: 16px;
 	font-family: 'Lato';
 	transition: .4s;
 	transform: skewY(20px);
@@ -50,7 +51,7 @@
 
 .nike-kids-nav a:hover{
 	color:black;
-	font-size: 17px;
+	font-size: 18px;
 	text-decoration: none;
 }
 
@@ -59,26 +60,33 @@
 .nike-kids-poster {
 	padding-top: 50px;
 	position: relative;
+
 }
 
+.nike-kids-poster img{
+	width: 100%;
+}
+
+
 .kids-poster-title {
-	width: 17%;
+	width: 20%;
 	position: absolute;
 	right: 1%;
 	bottom: 40%;
 	color: white;
 }
 
+
 .kids-title-cap {
 	font-family: "Fjalla One";
 	text-transform: uppercase;
 	font-weight: 400;
-	font-size: 42px;
+	font-size: 60px;
 }
 
 .kids-para-cap {
 	font-family: "Lato";
-	font-size: 14px;
+	font-size: 24px;
 }
 
 .kids-button {
@@ -87,7 +95,7 @@
 	bottom: 30%;
 	padding: 10px 20px 10px 20px;
 	color: #252525;
-	font-size: 12px;
+	font-size: 18px;
 	font-family: 'Fjalla One';
 	border: 2px solid #fff;
 	border-radius: 5px;
@@ -98,9 +106,11 @@
 
 
 /*Kids Shop By Size*/
+
 .kids-shop-by-size {
 	padding-top: 3%;
 }
+
 .kids-size {
 	display: flex;
 	justify-content: space-around;
@@ -115,6 +125,14 @@
 	padding-top: 30px;
 	width: 30%;
 	margin-left: 38%;
+}
+
+.title-kids-size h2{
+	font-size: 42px
+}
+
+.kids-size-title p {
+	font-size: 18px;
 }
 
 .kids-size-title h2 {
@@ -150,8 +168,8 @@
 .kids-infant-toddler img {
 	margin:0;
 	padding: 0;
-	width:45px;
-	height:60px;
+	width:75px;
+	height:90px;
 }
 
 .kids-infant-toddler-text {
@@ -167,6 +185,7 @@
 	font-family: "Fjalla One";
 	font-weight: 700;
 	text-transform: uppercase;
+	font-size: 25px;
 }
 
 .mini-text {
@@ -178,6 +197,10 @@
 	font-family: "Fjalla One";
 	color: #999999;
 	font-weight: 700;
+}
+
+.mini-text h6{
+	font-size: 15px;
 }
 
 .tods-text {
@@ -242,10 +265,21 @@
 	margin: 0;
 	padding: 0;
 	font-family: "Lato";
-	font-size: 13px;
 	color: #999999;
 }
 
+.nike-best-selection a img{
+	width: 200px;
+	margin-left: 20px;
+}
+
+.nike-best-selection a h5{
+	font-size: 25px;
+}
+
+.nike-best-selection a p {
+	font-size: 18px;
+}
 
 /* Follow Young Athletes */
 .follow-young-athletes {
@@ -264,10 +298,14 @@
 
 .young-ath-text h4{
 	font-family: "Fjalla One";
-	font-size: 18px;
+	font-size: 28px;
 	text-transform: uppercase;
 	margin-bottom: 0;
 	padding-bottom: 0;
+}
+
+.young-ath-text img {
+	width: 60px;
 }
 
 
@@ -277,13 +315,12 @@
 }
 .find-the-perfect-title {
 	width: 100%;
-	font-size: 28px;
 	padding-bottom: 2%;
 }
 
 .find-the-perfect-title h1 {
 	letter-spacing: 1px;
-	font-size: 24px;
+	font-size: 40px;
 	text-transform: uppercase;
 	font-family: "Fjalla One";
 	text-align: center;
@@ -298,6 +335,10 @@
 .kid-shoe {
 	background: #ebebeb;
 	text-align: center;
+}
+
+.kid-shoe img{
+	width: 280px;
 }
 
 .shoe-pic-kids p{
@@ -321,12 +362,17 @@
 	padding-top: 5%;
 	padding-bottom: 7%;
 }
+
 .kids-find-perfect-title h1 {
 	letter-spacing: 1px;
 	font-size: 24px;
 	text-transform: uppercase;
 	font-family: "Fjalla One";
 	text-align: center;
+}
+
+.kid-swag img {
+	width: 280px;
 }
 
 .shoe-pic-kids {
@@ -352,7 +398,7 @@
 
 .kids-gear-title h1{
 	font-family: "Fjalla One";
-	font-size: 27px;
+	font-size: 37px;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 }
@@ -366,10 +412,143 @@
 	cursor: pointer;
 }
 
+.checklist-images img {
+	width: 450px;
+}
+
 .kids-gear-pics h4{
 	text-align: center;
 	font-family: "Fjalla One";
-	font-size: 15px;
+	font-size: 20px;
 	text-transform: uppercase;
 	color: #999999;
+}
+
+@media screen and (max-width:1500px) {
+
+	.nike-kids-header-container {
+		width: 1440px;
+	}
+
+
+	.nike-kids-nav a {
+		font-size: 14px;
+
+	}
+
+	.nike-kids-nav a:hover {
+		font-size: 17px;
+	}
+
+	.nike-kids-poster img{
+		width: 1440px;
+	}
+
+	.kids-title-cap {
+		font-size: 42px;
+	}
+
+	.kids-para-cap {
+		font-family: "Lato";
+		font-size: 14px;
+	}
+
+	.kids-poster-title {
+		width: 300px;
+		position: absolute;
+		right: 1%;
+		bottom: 40%;
+		color: white;
+	}
+
+	.kids-button {
+		font-size: 12px;
+	}
+
+	.title-kids-size h2{
+		font-size: 30px
+	}
+
+	.kids-size-title p {
+		font-size: 15px;
+	}
+
+	.kids-infant-toddler-text h4 {
+		font-size: 20px;
+	}
+
+	.kids-infant-toddler img {
+		width:45px;
+		height:60px;
+	}
+
+	.mini-text h6{
+		font-size: 12px;
+	}
+
+	.find-the-perfect-title h1 {
+		font-size: 24px;
+	}
+
+	.kid-shoe img{
+		width:100%;
+	}
+
+	.kid-swag img{
+		width: 100%;
+	}
+
+	.kids-gear-title h1{
+		font-size: 27px;
+	}
+
+	.checklist-images img {
+		width: 100%;
+	}
+
+	.kids-gear-pics h4{
+		font-size: 15px;
+	}
+
+	.nike-best-selection a img{
+		width: 100%;
+	}
+
+	.nike-best-selection a h5{
+		font-size: 15px;
+	}
+
+	.nike-best-selection a p {
+		font-size: 12px;
+	}
+
+	.young-ath-text h4{
+		font-size: 18px;
+	}
+
+	.young-ath-text img {
+		width: 50px;
+	}
+
+	.kids-gear-up {
+		width: 1440px;
+	}
+
+	.kids-find-everyday-sect {
+		width: 1440px;
+	}
+
+	.find-the-perfect {
+		width: 1440px;
+	}
+
+	.get-the-best-of-nike-benefits {
+		width: 1440px;
+	}
+
+	.kids-shop-by-size {
+		width: 1440px;
+	}
+
+
 }

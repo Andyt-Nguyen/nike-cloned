@@ -31,12 +31,12 @@ main.ng-enter.ng-enter-active{
 }
 
 .a-categ-display h5 {
-	font-size: 17px;
+	font-size: 27px;
 }
 
 .a-categ-display a {
 	font-family: 'Lato', sans-serif;
-	font-size: 14px;
+	font-size: 18px;
 	color: #575859;
 }
 
@@ -102,4 +102,19 @@ main.ng-enter.ng-enter-active{
 	font-family: "Lato";
 	padding:0;
 	margin:0;
+}
+
+@media screen and (max-width:1500px) {
+	.nike-a-categ {
+		width: 1440px;
+	}
+
+	.a-categ-display h5 {
+		font-size: 17px;
+	}
+
+	.a-categ-display a {
+		font-size: 14px;
+	}
+
 }

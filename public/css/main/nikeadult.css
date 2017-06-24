@@ -10,7 +10,7 @@
 }
 
 .adult-title{
-	font-size: 47px;
+	font-size: 60px;
 	text-transform: uppercase;
 	font-family: 'Fjalla One';
 	color: #252525;
@@ -29,7 +29,7 @@
 	text-align: center;
 	text-decoration: none;
 	color: #666;
-	font-size: 14px;
+	font-size: 16px;
 	text-transform: capitalize;
 	font-family: 'Lato';
 	transition: .4s;
@@ -45,4 +45,22 @@
 .adult-border {
 	border-left: 2px solid #666;
 	border-right: 2px solid #666;
+}
+
+@media screen and (max-width:1500px) {
+	.adult-header {
+		width: 1440px;
+	}
+
+	.adult-title{
+		font-size: 47px;
+		text-transform: uppercase;
+		font-family: 'Fjalla One';
+		color: #252525;
+	}
+
+	.adult-nav-text {
+		font-size: 14px;
+	}
+
 }

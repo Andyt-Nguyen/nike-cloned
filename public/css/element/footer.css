@@ -3,8 +3,8 @@ footer{
 	height: 330px;
 	z-index: -1;
 }
+
 .footer-info {
-	width: 100%;
 	margin-top: 150px;
 	display: flex;
 	flex-direction: row;
@@ -15,8 +15,9 @@ footer{
 .col-1 .col-top, .col-2 .col-top, .col-3 .col-top, .col-top {
 	padding-top:45px;
 	color: white;
-	font-size: .875em;
+	font-size: 20px;
 }
+
 .col-1 a, .col-2 a, .col-3 a, .col-4 a{
 	text-decoration: none;
 	text-transform: uppercase;
@@ -24,11 +25,12 @@ footer{
 	font-family: "Fjalla One";
 	letter-spacing: .03em;
 	color:#999;
-	font-size: .688em
+	font-size: 14px;
 }
-.col-1 a{
+
+.col-1 a {
 	color: white;
-	font-size: .875em;
+	font-size: 14px;
 }
 
 .col-1 {
@@ -58,13 +60,22 @@ footer{
 	display: flex;
 	align-items: center;
 }
+
 #social {
 	color: white;
-	font-size: .875em;
+	font-size: 18px;
 }
 
-.col-4-1{
+.col-4-1 {
 	flex-direction: row;
+}
+
+.col-4-1 a img{
+	width: 40px;
+}
+
+#twitter-footer img{
+	width: 50px;
 }
 
 .copyright-container{
@@ -78,4 +89,36 @@ footer{
 }
 .copyright {
 	background: #1a1a1a;
+}
+
+
+@media screen and (max-width: 1500px) {
+	.footer-info {
+		width: 1440px
+	}
+
+	.col-1 a, .col-2 a, .col-3 a, .col-4 a{
+		font-size: .688em
+	}
+
+	.col-1 a {
+		font-size: .875em;
+	}
+
+	.col-1 .col-top, .col-2 .col-top, .col-3 .col-top, .col-top {
+		font-size: .875em;
+	}
+
+	#social {
+		font-size: .875em;
+	}
+
+	.col-4-1 a img{
+		width: 25px;
+	}
+
+	#twitter-footer img{
+		width: 30px;
+	}
+
 }

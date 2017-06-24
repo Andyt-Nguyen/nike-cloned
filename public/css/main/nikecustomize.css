@@ -28,11 +28,13 @@
 	text-decoration: none;
 	transition: .4s;
 	transform: skewY(20px);
+	font-size: 20px;
+	font-weight: 600;
 }
 
 .ind:hover {
 	color:#000;
-	font-size: 17px;
+	font-size: 23px;
 	text-decoration: none;
 
 }
@@ -46,6 +48,10 @@
 	border-right: 2px solid #222222;
 }
 
+/*Banner Img*/
+.customize-poster-img img {
+	width: 100%;
+}
 
 
 /* Sock Racer By You Section*/
@@ -59,21 +65,21 @@
 .customize-sock-title h3 {
 	font-family: "Fjalla One";
 	font-weight: 400;
-	font-size: 28px;
+	font-size: 38px;
 	text-transform: uppercase;
 	color: #323232;
 }
 
 .customize-sock-1 {
 	font-family: 'Lato';
-	font-size: 15px;
+	font-size: 20px;
 	word-spacing: 2px;
 	color: #6e6e6e;
 }
 
 .customize-sock-2 {
 	font-family: 'Lato';
-	font-size: 15px;
+	font-size: 20px;
 	word-spacing: 2px;
 	margin-top: 3%;
 }
@@ -323,4 +329,41 @@
 
 .suede-shoes {
 	border-radius: 20px;
+}
+
+
+@media screen and (max-width:1500px) {
+	.customize-nav {
+		width: 1440px
+	}
+
+	.ind{
+		font-size: 14px;
+	}
+
+	.ind:hover {
+		color:#000;
+		font-size: 16px;
+		text-decoration: none;
+
+	}
+
+	.customize-poster-img {
+		width: 1440px;
+	}
+
+	.customize-sock-title h3 {
+		font-size: 28px;
+	}
+
+	.customize-sock-1 {
+		font-size: 15px;
+
+	}
+
+	.customize-sock-2 {
+		font-size: 15px;
+
+	}
+
 }

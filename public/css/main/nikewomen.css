@@ -25,15 +25,15 @@
 }
 
 .nikewomen-video-cap {
-	width: 20%;
+	width: 25%;
 	position: absolute;
 	color: #fff;
 	top: 28%;
-	right: 3%;
+	right: 0%;
 }
 
 .nikewomen-video-cap h1{
-	font-size: 43px;
+	font-size: 63px;
 	text-transform: uppercase;
 	font-family: "Fjalla One";
 	margin-left: 10%;
@@ -42,7 +42,9 @@
 
 .nikewomen-video-cap p {
 	margin-left: 10%;
+	font-size: 22px;
 }
+
 
 .nikewomen-video-cap .w-p-2{
 	margin-left: 30%;
@@ -54,7 +56,7 @@
 	margin-left: 60%;
 	padding: 10px 20px 10px 20px;
 	color: #252525;
-	font-size: 12px;
+	font-size: 22px;
 	font-family: 'Fjalla One';
 	border: 2px solid #fff;
 	border-radius: 5px;
@@ -65,8 +67,8 @@
 
 
 /*Womens Latest Shoes*/
-.women-latest-shoes h1{
-	font-size: 18px;
+.women-latest-shoes h1 {
+	font-size: 30px;
 	margin-left: 20px;
 	font-family: "Fjalla One";
 	text-transform: uppercase;
@@ -74,6 +76,7 @@
 
 .w-latest-shoes {
 	display: flex;
+	justify-content: center;
 }
 
 .w-latest-shoes img {
@@ -81,7 +84,12 @@
 }
 
 .w-latest-shoes h4 {
-	font-family: "Fjalla One"
+	font-family: "Fjalla One";
+	font-size: 27px;
+}
+
+.w-latest-shoes p {
+	font-size: 15px;
 }
 
 .w-latest-shoes h4, .w-latest-shoes p {
@@ -92,7 +100,7 @@
 
 /*Featured*/
 .women-featured h1{
-	font-size: 18px;
+	font-size: 28px;
 	font-family: "Fjalla One";
 	text-transform: uppercase;
 	margin-left: 20px;
@@ -126,11 +134,15 @@
 	font-family: "Fjalla One";
 }
 
+.w-f-text p {
+	font-size: 14px;
+}
+
 .w-featured-btn {
 	text-align: right;
 	padding: 14px;
 	color: #fff;
-	font-size: 12px;
+	font-size: 17px;
 	font-family: 'Fjalla One';
 	border: 2px solid #fff;
 	text-transform: uppercase;
@@ -140,7 +152,7 @@
 
 /*Shop by*/
 .w-shop-by-sect h1{
-	font-size: 18px;
+	font-size: 25px;
 	font-family: "Fjalla One";
 	text-transform: uppercase;
 	margin-left: 20px;
@@ -162,7 +174,7 @@
 	margin-top: 100px;
 }
 .nike-app h1{
-	font-size: 18px;
+	font-size: 25px;
 	font-family: "Fjalla One";
 	text-transform: uppercase;
 	margin-left: 20px;
@@ -175,6 +187,8 @@
 
 .nike-app-pics img{
 	padding: 5px;
+	width: 100%;
+	height: 500px;
 }
 
 .intro-apps {
@@ -185,12 +199,12 @@
 }
 
 .intro-apps h1{
-	font-size: 31px;
+	font-size: 40px;
 	font-family: 'Fjalla One';
 }
 
 .intro-apps p{
-	font-size: 16px;
+	font-size: 18px;
 }
 
 .nike-app-container {
@@ -202,9 +216,24 @@
 	justify-content: space-around;
 }
 
+
 .nike-w-apps {
+	margin-top: 20px;
 	text-align: center;
 }
+
+.nike-w-apps img{
+	width: 80px
+}
+
+.nike-w-apps h4{
+	font-size: 20px;
+}
+
+.nike-w-apps p{
+	font-size: 15px;
+}
+
 
 /* Nike Apps */
 
@@ -223,6 +252,11 @@
 	color: #252525;
 }
 
+
+.w-follow-title h1{
+	font-size: 25px;
+}
+
 .w-follow-apps-container {
 	padding-top: 20px;
 	margin-left: 32%;
@@ -230,4 +264,112 @@
 	display: flex;
 	justify-content: space-around;
 }
+
+.w-follow-app img{
+	width: 40px;
+}
 /*Nike Follow*/
+
+
+@media screen and (max-width:1500px) {
+
+	.nikewomen-video-sect {
+		width: 1440px;
+	}
+
+	.nikewomen-video-cap h1{
+		font-size: 43px;
+	}
+
+	.nikewomen-video-cap p {
+		margin-left: 10%;
+		font-size: 14px;
+	}
+
+	.nikewomen-video-cap {
+		width: 20%;
+		position: absolute;
+		color: #fff;
+		top: 28%;
+		right: 3%;
+	}
+
+	.women-shop-btn {
+		font-size: 12px;
+	}
+
+	.women-latest-shoes h1{
+		font-size: 18px;
+	}
+
+	.w-latest-shoes img {
+		padding: 20px;
+		width: 300px;
+	}
+
+	.w-latest-shoes h4 {
+		font-size: 18px;
+	}
+
+	.w-latest-shoes p {
+		font-size: 13.5px;
+	}
+
+	.women-featured h1{
+		font-size: 18px;
+	}
+
+	.w-f-text p {
+		font-size: 14px;
+	}
+
+	.w-featured-btn {
+		font-size: 12px;
+
+	}
+
+	.w-shop-by-sect h1{
+		font-size: 18px;
+	}
+
+	.nike-app h1 {
+		font-size: 18px;
+		font-family: "Fjalla One";
+		text-transform: uppercase;
+		margin-left: 20px;
+	}
+
+	.nike-app {
+		width: 1500px;
+	}
+
+	.intro-apps h1{
+		font-size: 31px;
+	}
+
+	.intro-apps p {
+		font-size: 16px;
+	}
+
+	.nike-w-apps img {
+		width: 70px
+	}
+
+	.nike-w-apps h4 {
+		font-size: 15px;
+	}
+
+	.nike-w-apps p {
+		font-size: 12px;
+	}
+
+	.w-follow-title h1 {
+		font-size: 20px;
+	}
+
+	.w-follow-app img{
+		width: 35px;
+	}
+
+
+}
