@@ -10,6 +10,9 @@
 
 /*---------------- Left Hand Column ---------------- */
 
+.categ-container {
+	width: 85%
+}
 
 .left-hand-column {
 	padding-left: 25px;
@@ -45,6 +48,7 @@
 	text-decoration: none;
 	color: black;
 	padding-bottom: 5px;
+	font-size: 17px;
 }
 
 .shop-prods-categ .prods:hover {
@@ -53,11 +57,11 @@
 }
 .shop-prods-categ .prods {
 	width: 50%;
-	/*border: 2px solid aqua;*/
 }
-.shop-prods-categ h5 {
+.shop-prods h5 {
 	font-family: "Fjalla One";
 	text-transform: uppercase;
+	font-size: 20px
 }
 
 .shop-prods-categ span {
@@ -68,7 +72,6 @@
 
 .shop-categ-coll {
 	display: flex;
-	/*border: 2px solid red;*/
 	justify-content: space-between;
 }
 
@@ -88,6 +91,11 @@
 /*---------------- Right Hand Column ---------------- */
 .shopping-poster-pic {
 	position: relative;
+	width: 100%;
+}
+
+.shopping-poster-pic img{
+	width: 100%;
 }
 
 .shopping-poster-text {
@@ -114,21 +122,32 @@
 	font-family: "Fjalla One";
 }
 
+.the-breaker h1 {
+	font-size: 45px;
+}
+
 /*The Real Products*/
-.the-real-products {
+.products-container {
 	display: flex;
 	justify-content: center;
+	width: 100%;
+	margin-right: 40px
+}
+
+.the-real-products {
+	display: flex;
+	justify-content: flex-end;
 	flex-wrap: wrap;
-	/*border: 2px solid red;*/
 	width: 75vw;
 }
+
 
 .the-real-products h5 {
 	width: 60%;
 	margin-bottom: 12px;
 }
 
-.the-real-products h5,.the-real-products p {
+.the-real-products h5, .the-real-products p {
 	margin: 0;
 	padding: 0;
 	text-align: left;
@@ -139,11 +158,11 @@
 }
 
 .the-real-products img{
-	width:218px;
-	height:220px;
+	width:318px;
+	height:320px;
 	transition: .4s;
 	transform: translateZ(20px);
-	padding: 02px;
+	padding: 2px;
 }
 
 
@@ -151,7 +170,59 @@
 	cursor: pointer;
 	border: 1px solid #ccc;
 	border-radius: 5px;
-	height: 226px;
 }
 
 /*---------------- Right Hand Column ---------------- */
+
+
+@media screen and (max-width:1700px) {
+	.shop-prods {
+		width: 260px;
+	}
+
+	.shop-prods h5 {
+		font-size: 18px
+	}
+
+	.shop-prods-categ a {
+		font-family: 'Lato';
+		text-decoration: none;
+		color: black;
+		padding-bottom: 5px;
+		font-size: 15px;
+	}
+
+	.shopping-poster-pic {
+		position: relative;
+		width: 1150px;
+	}
+
+	.the-breaker h1 {
+		font-size: 35px;
+	}
+
+	.the-real-products {
+		margin-left: 35px;
+	}
+
+	.the-real-products {
+		width:85%;
+	}
+
+	.the-real-products img{
+		width:218px;
+		height:220px;
+		transition: .4s;
+		transform: translateZ(20px);
+		padding: 2px;
+	}
+
+
+	.products-container {
+		width: 95%;
+		margin-right: 0px;
+	}
+
+
+
+}

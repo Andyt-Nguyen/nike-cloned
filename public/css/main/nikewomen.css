@@ -67,6 +67,10 @@
 
 
 /*Womens Latest Shoes*/
+.women-latest-shoes {
+	width: 100%;
+}
+
 .women-latest-shoes h1 {
 	font-size: 30px;
 	margin-left: 20px;
@@ -99,6 +103,10 @@
 /*Womens Latest Shoes*/
 
 /*Featured*/
+.women-featured {
+	width: 100%;
+}
+
 .women-featured h1{
 	font-size: 28px;
 	font-family: "Fjalla One";
@@ -151,6 +159,10 @@
 /*Featured*/
 
 /*Shop by*/
+.w-shop-by-sect {
+	width: 100%;
+}
+
 .w-shop-by-sect h1{
 	font-size: 25px;
 	font-family: "Fjalla One";
@@ -271,7 +283,7 @@
 /*Nike Follow*/
 
 
-@media screen and (max-width:1500px) {
+@media screen and (max-width:1700px) {
 
 	.nikewomen-video-sect {
 		width: 1440px;
@@ -369,6 +381,18 @@
 
 	.w-follow-app img{
 		width: 35px;
+	}
+
+	.women-latest-shoes {
+		width: 1440px;
+	}
+
+	.women-featured {
+		width: 1440px;
+	}
+
+	.w-shop-by-sect {
+		width: 1440px;
 	}
 
 

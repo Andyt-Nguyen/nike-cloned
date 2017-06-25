@@ -68,6 +68,7 @@
 .shop-men-shoes{
 	position: relative;
 	height: 70vh;
+	width: 100%;
 }
 
 .nike-men-text {
@@ -129,6 +130,7 @@
 .shop-now-men{
 	position: relative;
 	margin-top: 116px;
+	width: 100%;
 }
 
 .shopper-anim-pic {
@@ -227,6 +229,10 @@
 
 /* CR7 CHAPTER 4 MERCURIAL SUPERFLY */
 /*--Add button brosiden--*/
+.cp7-sect {
+	width: 100%;
+}
+
 .cp7 {
 	display: flex;
 	justify-content: center;
@@ -238,6 +244,7 @@
 }
 
 .cp7-box {
+	width: 100%;
 	display: flex;
 	justify-content: center;
 }
@@ -353,7 +360,7 @@
 /* Social Network Follow */
 /* Nike Plus App */
 
-@media screen and (max-width:1500px){
+@media screen and (max-width:1700px){
 	.nikemen-video {
 		width: 1500px;
 	}
@@ -421,6 +428,10 @@
 		height: 20%;
 		width: 1440px;
 		padding-top: 2%;
+	}
+
+	.target-cooling-comfort {
+		width: 100%;
 	}
 
 	.cool-left-left h3, .cool-right-right h3{
@@ -507,6 +518,31 @@
 
 	.cp7-desc a p {
 		font-size: 13px;
+	}
+
+	.shop-men-shoes{
+		width: 1440px;
+	}
+
+	.shop-now-men{
+		width: 1440px;
+	}
+
+	.target-cooling-comfort {
+		width: 1440px;
+	}
+
+	.cool-comfort {
+		width: 1440px;
+	}
+
+	.cp7-box {
+		width: 1440px;
+
+	}
+
+	.nike-plus-sect {
+		width: 1440px;
 	}
 
 

@@ -47,7 +47,7 @@
 	border-right: 2px solid #666;
 }
 
-@media screen and (max-width:1500px) {
+@media screen and (max-width:1700px) {
 	.adult-header {
 		width: 1440px;
 	}

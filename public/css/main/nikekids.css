@@ -424,7 +424,7 @@
 	color: #999999;
 }
 
-@media screen and (max-width:1500px) {
+@media screen and (max-width:1700px) {
 
 	.nike-kids-header-container {
 		width: 1440px;
@@ -547,6 +547,10 @@
 	}
 
 	.kids-shop-by-size {
+		width: 1440px;
+	}
+
+	.follow-young-athletes {
 		width: 1440px;
 	}
 

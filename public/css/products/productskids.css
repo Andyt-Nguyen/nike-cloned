@@ -15,13 +15,17 @@
 	text-transform: uppercase;
 }
 
+/* Left Hand Column */
+
+
+
 /*Right Hand Column*/
 .shopping-poster-pic-kids {
 	position: relative;
+	width: 100%;
 }
 
 .right-hand-column-kids {
-	/*border: 2px solid purple;*/
 	width: 100%;
 }
 
@@ -63,4 +67,18 @@
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
+}
+
+@media screen and (max-width:1700px) {
+	.the-products {
+		width: 1440px;
+	}
+	.right-hand-column-kids{
+		width: 1040px;
+	}
+
+	.shopping-poster-pic-kids {
+		width: 1040px;
+	}
+
 }

@@ -2,6 +2,7 @@ footer{
 	background: #1a1a1a;
 	height: 330px;
 	z-index: -1;
+	width: 100%;
 }
 
 .footer-info {
@@ -92,7 +93,10 @@ footer{
 }
 
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1700px) {
+	footer {
+		width: 1440px;
+	}
 	.footer-info {
 		width: 1440px
 	}
