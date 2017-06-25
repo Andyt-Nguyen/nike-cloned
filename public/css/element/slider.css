@@ -1,6 +1,6 @@
 
 .caro-super-container{
-	padding-top: 7.5%;
+	padding-top: 7.35%;
 	width: 100%;
 	position: relative;
 }
@@ -48,10 +48,10 @@
 	color: black;
 }
 
-@media screen and (max-width:1700px) {
+@media screen and (max-width:1500px) {
 	.caro-super-container{
 	width: 1440px;
-	padding-top: 115px;
+	padding-top: 125px;
 
 	}
 

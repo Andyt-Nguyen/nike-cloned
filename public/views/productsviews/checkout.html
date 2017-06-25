@@ -1,9 +1,9 @@
-<h1 class="container" style="color:black">Checkout</h1>
-<div style="display:flex; justify-content:center; color:black">
-	<table class="table" style="width:60%;">
+<h1 class="container checkout-checkout" style="color:black">Checkout</h1>
+<div class="checkout-container">
+	<table class="table checkout-table">
 		<thead>
 			<tr>
-				<th style="padding:0;"><h3>Shopping Cart</h3></th>
+				<th class="checkout-header"><h3>Shopping Cart</h3></th>
 				<th></th>
 				<th>Qty</th>
 				<th>Price</th>
@@ -12,24 +12,24 @@
 		</thead>
 		<tbody>
 			<tr ng-repeat="item in items">
-				<td style="padding:0;">
+				<td class="checkout-data">
 					<div>
-						<img ng-src="{{item.img}}" alt="" style="width:100px">
+						<img ng-src="{{item.img}}" alt="">
 					</div>
 
 				</td>
-				<td>
-					<h4>{{item.name}} <small style="text-decoration:uppercase">{{item.gender}}</small></h4>
-					<img width="30px" src="css/images/nikempng/nikeplus.png" alt="">
-					<h6 style="color:green">In Stock</h6>
-					<h6 style="color:red; cursor:pointer" ng-click="remove(item)">Delete</h6>
+				<td class="checkout-data-desc">
+					<h4 class="items-bought">{{item.name}} <small style="text-decoration:uppercase">{{item.gender}}</small></h4>
+					<img class="checkout-nike-plus" src="css/images/nikempng/nikeplus.png" alt="">
+					<h6 class="checkout-stock">In Stock</h6>
+					<h6 class="checkout-delete" ng-click="remove(item)">Delete</h6>
 				</td>
-				<td>1</td>
-				<td><h5>{{item.price | currency}}</h5></td>
+				<td class="checkout-td">1</td>
+				<td class="checkout-td"><h5>{{item.price | currency}}</h5></td>
 			</tr>
 			<td>
-				<h4>Total: {{total|currency}}</h4>
-				<button ng-click='addToHistory()' ui-sref="success">SUBMIT</button>
+				<h4 class="checkout-total">Total: {{total|currency}}</h4>
+				<button class="checkout-submit" ng-click='addToHistory()' ui-sref="success">SUBMIT</button>
 			</td>
 		</tbody>
 	</table>

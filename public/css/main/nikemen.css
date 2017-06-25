@@ -355,14 +355,17 @@
 	padding-left: 10px;
 	padding-right: 10px;
 	height: 57px;
-	width: 60px
+	width: 60px;
 }
 /* Social Network Follow */
 /* Nike Plus App */
 
-@media screen and (max-width:1700px){
+@media screen and (max-width:1500px){
+	.men-video-container{
+		width: 1440px;
+	}
 	.nikemen-video {
-		width: 1500px;
+		width: 1440px;
 	}
 
 	.nikemen-vid-cap {

@@ -1,0 +1,125 @@
+.checkout-container {
+	display: flex;
+	justify-content: center;
+	color: black;
+	margin-bottom:13%;
+}
+
+.checkout-table {
+	width:60%;
+}
+
+.checkout-header {
+	padding:0;
+
+}
+
+.checkout-checkout {
+	font-size: 37px;
+}
+
+.checkout-header h3{
+	font-size: 25px;
+}
+
+.checkout-th {
+	font-size:
+}
+
+th {
+	font-size: 18px;
+}
+
+.checkout-data {
+	padding: 0;
+}
+
+.checkout-data div img {
+	width: 150px;
+}
+
+.items-bought {
+	font-size: 20px;
+}
+
+.checkout-nike-plus {
+	width:55px;
+}
+
+.checkout-stock {
+	color: green;
+	font-size: 15px;
+}
+
+.checkout-td {
+	font-size: 20px;
+}
+
+.checkout-td h5{
+	font-size: 17px;
+	padding: 0;
+	margin: 0;
+}
+
+.checkout-delete {
+	color: red;
+	cursor: pointer;
+	font-size: 15px;
+}
+
+.checkout-total {
+	font-size: 25px;
+}
+
+.checkout-submit {
+	font-size: 20px;
+	background: #d1d1d1;
+	color: white;
+	border: none;
+	border-radius: 5px;
+}
+
+@media screen and (max-width:1500px) {
+	.checkout-checkout {
+		font-size: 30px;
+	}
+
+	.checkout-header h3{
+		font-size: 20px;
+	}
+
+	.checkout-data div img {
+		width: 130px;
+	}
+
+	.checkout-nike-plus {
+		width:30px;
+	}
+
+	th {
+		font-size: 15px;
+	}
+
+	.checkout-td {
+		font-size: 15px;
+	}
+
+	.checkout-td h5{
+		padding: 0;
+		margin: 0;
+		font-size: 14px;
+	}
+
+	.checkout-stock {
+		font-size: 12px;
+	}
+
+	.checkout-delete {
+		font-size: 12px;
+	}
+
+	.checkout-total {
+		font-size: 20px;
+	}
+
+}

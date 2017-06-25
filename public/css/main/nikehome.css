@@ -66,11 +66,16 @@
 	align-items: center;
 	align-content: flex-end;
 	text-align: center;
-
+	background: white;
 }
 
 .email-pic {
 	align-self: center;
+
+}
+
+.email-info a img {
+	width: 70px;
 }
 
 .email-text {
@@ -122,6 +127,14 @@
 		text-transform: uppercase;
 		background: white;
 
+	}
+
+	.email-info {
+		width: 1440px;
+	}
+
+	.email-info a img {
+		width: 50px;
 	}
 
 

@@ -229,6 +229,7 @@
 
 .get-the-best-title {
 	text-align: center;
+	width: 100%;
 }
 
 .get-the-best-title h1{
@@ -551,6 +552,11 @@
 	}
 
 	.follow-young-athletes {
+		width: 1440px;
+	}
+
+	.get-the-best-title {
+		text-align: center;
 		width: 1440px;
 	}
 
