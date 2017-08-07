@@ -235,7 +235,6 @@ this.addToHistory = (id) =>{
 
 //Boys Product Poster Page
 	this.bProdCategShoes = [
-		{title: "Running", img:"./css/products/productsimage/nikebproducts/running.png",categ:'bRunning'},
 		{title: "Basketball", img: "./css/products/productsimage/nikebproducts/basketball.png",categ:'bBasketball'},
 		{title: "Soccer", img: "./css/products/productsimage/nikebproducts/soccer.png",categ:'bSoccer'},
 		{title: "Lifestyle", img: "./css/products/productsimage/nikebproducts/lifestyle.png",categ:'bLifeStyle'},
@@ -273,8 +272,6 @@ this.addToHistory = (id) =>{
 
 //Girls Poster Shoes
 	this.gprodCategShoes = [
-		{title: "Running", img: "css/products/productsimage/nikegproducts/running.png"},
-		{title: "Basketball", img: "css/products/productsimage/nikegproducts/basketball.png"},
 		{title: "Soccer", img: "css/products/productsimage/nikegproducts/soccer.png"},
 		{title: "Lifestyle", img: "css/products/productsimage/nikegproducts/lifestyle.png"},
 		{title: "Training", img: "css/products/productsimage/nikegproducts/training.png"},

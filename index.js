@@ -239,7 +239,7 @@ app.get('/nikeblsshoes', function(req, res){
 
 app.get('/nikebrunning', function(req, res){
 	db.boysrunning(function(err, shoes){
-		// console.log(shoes);
+		console.log(shoes);
 		res.send(shoes);
 	})
 })
