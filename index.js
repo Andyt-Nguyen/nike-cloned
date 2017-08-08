@@ -131,7 +131,6 @@ app.get('/allshoes', function(req, res){
 app.post('/history', function(req,res){
 	db.addtohistory([req.body.user_id, req.body.product_id], function(err,history){
 		if (err) {
-			console.log(err);
 		}
 		res.send(history);
 	});
@@ -238,7 +237,6 @@ app.get('/nikeblsshoes', function(req, res){
 
 app.get('/nikebrunning', function(req, res){
 	db.boysrunning(function(err, shoes){
-		console.log(shoes);
 		res.send(shoes);
 	})
 })
