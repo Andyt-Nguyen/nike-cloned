@@ -11,7 +11,6 @@ const conn = massive.connectSync({connectionString:config.connectionString});
 const app = module.exports = express();
 
 
-
 app.use(session({
   resave: true, //Without this you get a constant warning about default values
   saveUninitialized: true, //Without this you get a constant warning about default values
